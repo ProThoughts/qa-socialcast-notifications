@@ -18,7 +18,7 @@ if (!defined('QA_VERSION')) { // don't allow this page to be requested directly 
 	exit;
 }
 
-	qa_register_plugin_module('event', 'qa-category-email-notifications-event.php', 'qa_category_email_notifications_event', 'Category Email Notifications');
+qa_register_plugin_module('event', 'qa-category-email-notifications-event.php', 'qa_category_email_notifications_event', 'Category Email Notifications');
 
 
 /*
