@@ -39,7 +39,7 @@ class qa_socialcast_notifications_event {
 		}
 	}
 
-	public function build_socialcast_request($who, $title, $content, $url) {
+	private function build_socialcast_request($who, $title, $content, $url) {
 		return array(
 			'message[body]' => sprintf("%s asked a new question \"%s\" on #QNA, check it out!", $who, $title),
 			'message[url]' => $url,

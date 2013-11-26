@@ -18,4 +18,4 @@ if (!defined('QA_VERSION')) { // don't allow this page to be requested directly 
 	exit;
 }
 
-qa_register_plugin_module('event', 'qa-socialcast-notifications-event.php', 'qa_socicalcast_notifications_event', 'Socialcast Notifications');
+qa_register_plugin_module('event', 'qa-socialcast-notifications-event.php', 'qa_socialcast_notifications_event', 'Socialcast Notifications');
